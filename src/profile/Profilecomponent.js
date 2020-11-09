@@ -8,6 +8,7 @@ const Profilecomponent = (props) => {
         <p>{el.fullName}</p>
         <p>{el.bio}</p>
         <p>{el.profession}</p>
+        <img src={el.img} width = "300" />
         
     </div>
     )
